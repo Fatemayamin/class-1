@@ -1,0 +1,75 @@
+*{
+   margin: 0;padding: 0; box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+}
+.container {
+  background: url(../james_madison_university.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:100vh;
+}
+.top{
+  width: 100%;
+  height: 100px;
+  background-color: #E384FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+.logo_area{
+      width: 20%;
+}
+.logo_area a {
+       display: flex;
+       align-items: center;
+}
+.logo_area a img {
+     width: 100px;
+}
+.menu_area{
+width: 40%;
+}
+.menu_area ul {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+.menu_area ul li {
+  position: relative;
+}
+.menu_area ul li ::after{
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  color: red;
+  content:'' ;
+  bottom: 0;
+  left: 0;
+  transition: .5s all ease-in-out;
+}
+.menu_area ul li:hover::after{
+  width: 100%;
+}
+.menu_area ul li a {
+  transition: 0.3s all ease-in-out;
+  color: #191825;
+  transition: 0.3s all ease-in-out;
+}
+.menu_area ul li a:hover{
+   color: red;
+}
+.info{
+   text-align: center;
+   width: 100%;
+   position: absolute;
+   top:50%
+}
+
+
