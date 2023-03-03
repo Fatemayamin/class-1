@@ -69,7 +69,76 @@ width: 40%;
    text-align: center;
    width: 100%;
    position: absolute;
-   top:50%
+   top:50%;
+   transform: translateY(-50%);
 }
-
-
+.info h1{
+ color: #bf07f7;
+ font-size: 60px;
+ font-family: lato;
+ 
+}
+info p{
+font-size: 20px;
+margin: opx;
+}
+.btn button{
+ padding: 9px 20px;
+ background: transparent;
+ border: 10px solid aqua;
+ color: blue;
+ font-size: 20px;
+ margin-top: 20px;
+ text-align: center;
+ border-radius: 25pxCFERrz;
+}
+.slider{
+ display: flex;
+ min-height: 50vh;
+ justify-content: center;
+ align-items: center;
+ background: #E384FF;
+ width: 900px;
+ height: 500px;
+ padding: 8px;
+ padding: 20px;
+ margin-top: 20px;
+ animation: slide 10s linear infinite;
+}
+@keyframes slide {
+   0% {
+  background: url(../download.jpeg) ;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 250px;
+}
+25% {
+ background: url(../download\ \(1\).jpeg);
+ background-repeat: no-repeat;
+ width: 500px;
+ height: 250px;
+}
+50% {
+  background: url(../download\ \(2\).jpeg);
+  background-repeat: no-repeat;
+}
+75% {
+ background: url(../images\ \(1\).jpeg);
+ background-repeat: no-repeat;
+}
+100% {
+ background: url(../images\ \(2\).jpeg);
+ background-repeat: no-repeat;
+}
+}
+.RIGHTNAV{
+  width: 40%;
+}
+.RIGHTNAV ul {
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.RIGHTNAV ul li {
+  position: relative;
+}
